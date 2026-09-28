@@ -6,6 +6,7 @@
     </head>
 
     <body>
+        <!-- Block-level element -->
         <!-- Headings -->
         <h1>Heading level One</h1>
         <h2>Heading level Two</h2>
@@ -15,7 +16,9 @@
         <h6>Heading level Six</h6>
 
         <!-- Paragraph -->
-        <p><!-- Bold --><b>Lorem ipsum dolor</b> sit <!-- Underline --><u>amet consectetur</u> adipisicing elit.
+        <!-- A <p> element generally cannot contain block-level elements. -->
+        <p><!-- Inline element--><!-- Bold --><b>Lorem ipsum dolor</b> sit <!-- Underline --><u>amet consectetur</u>
+            adipisicing elit.
             <!-- Italic --><i>Temporibus
                 deleniti</i> maxime cum
             quasi
@@ -31,16 +34,20 @@
             similique adipisci
             inventore
             corporis voluptatum fuga error ipsam velit commodi, eaque voluptates ex illum reiciendis placeat in.
-            Quisquam, exercitationem. Magni consequuntur debitis libero, amet commodi animi, delectus eos a,
-            itaque aliquid non ratione sunt doloremque sequi voluptatum vitae dolorum maiores soluta quasi? Ex earum
+            Quisquam, <!-- inserted --><ins>exercitationem</ins>. Magni consequuntur debitis libero, amet commodi animi,
+            delectus eos a,
+            itaque aliquid non ratione sunt doloremque <!-- deleted --><del>sequi voluptatum</del> vitae dolorum maiores
+            soluta quasi? Ex earum
             sint quod
             neque quasi tempora omnis illum ipsum alias dignissimos exercitationem nobis dolores enim adipisci,
             accusantium, autem soluta, corporis porro ducimus fugiat quibusdam saepe officia quo. <!-- Anchor --><a
-                href="https://www.google.com" target="_blank">Laboriosam
+                href="https://www.google.com" title="google" target="_blank">Laboriosam
                 repellendus
                 fugit</a>, dolorem, ducimus sed ad natus, ea officia rem perspiciatis totam similique odit at?
             Dignissimos,
             ipsam numquam.</p>
+        <a href="#">Introduction</a>
+        <a href="#video">Video</a>
         <!-- Lists -->
         <!-- Unordered List -->
         <ul>
@@ -110,17 +117,26 @@
         <button>Push it!</button>
 
         <!-- Image -->
-        <img style="width: 100vw" src="images/photo.jpeg" alt="Image Not Found">
+        <img style="width: 100vw" src="images/photo.jpeg" alt="Image Not Found" title="Image">
 
         <!-- Quotation -->
-        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis amet incidunt eum consectetur.
-            Eos omnis unde itaque aliquam voluptatum magnam laboriosam temporibus rerum delectus? Nihil deleniti dolores
+        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis amet incidunt eum
+            consectetur.
+            Eos omnis unde itaque aliquam voluptatum magnam laboriosam temporibus rerum delectus? Nihil deleniti
+            dolores
             in debitis iste!</blockquote>
 
         <p><abbr title="Massachusetts Institute of Technology">MIT</abbr> is a prestigious collage</p>
 
         <p><cite>MIT is a prestigious collage</cite>by DasAuto</p>
 
+        <!-- <video src="videos/another_world.mp4" width="400" controls="controls"></video> -->
+        <!-- <video src="videos/another_world.mp4" style="width: 100vw" controls loop
+            poster="images/another_world_cover.png"></video> -->
+        <video style="width: 100vw" controls loop poster="images/another_world_cover.png" id="video">
+            <source src="videos/another_world.mp4" type="video/mp4">
+            <p>HTML5 is not supported. Please upgrade your browser.</p>
+        </video>
 
         <div style="margin-top: 1000px"></div>
 
