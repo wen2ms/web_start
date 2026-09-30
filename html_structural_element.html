@@ -1,61 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Structure</title>
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HTML Structure</title>
-    </head>
+  <body>
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <main>
+      <aside>Asider</aside>
+      <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatum corporis magni quae sint sed vitae
+        necessitatibus saepe sequi impedit.
+      </article>
+      <form action="">
+        <ul>
+          <li>
+            Account:
+            <input type="text" placeholder="Please enter the account" name="account" accesskey="s" autocomplete="off" />
+          </li>
+          <li>
+            Password:
+            <input type="password" placeholder="Please enter the password" name="password" maxlength="10" />
+          </li>
+          <li>
+            Gender:
+            <input type="radio" name="gender" value="0" checked id="male" />
+            <label for="male">Male</label>
+            <label> <input type="radio" name="gender" value="1" /> Female </label>
+          </li>
+          <li>
+            Hobby:
+            <input type="checkbox" name="hobby" value="0" checked /> Football
+            <input type="checkbox" name="hobby" value="1" /> Basketball
+          </li>
+          <li>
+            File:
+            <input type="file" name="file" multiple accept=".jpg,.png" />
+          </li>
+          <li>
+            Message:
+            <textarea name="message" placeholder="Please enter the message"></textarea>
+          </li>
+        </ul>
+        <button disabled>Login</button>
+      </form>
+      <section>Section</section>
+    </main>
+    <footer>This is a footer.</footer>
 
-    <body>
-        <header>Header</header>
-        <nav>Navigation</nav>
-        <main>
-            <aside>Asider</aside>
-            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatum corporis magni quae sint
-                sed vitae necessitatibus saepe sequi impedit.</article>
-            <form action="">
-                <ul>
-                    <li>
-                        Account:
-                        <input type="text" placeholder="Please enter the account" name="account" accesskey="s"
-                            autocomplete="off">
-                    </li>
-                    <li>
-                        Password:
-                        <input type="password" placeholder="Please enter the password" name="password" maxlength="10">
-                    </li>
-                    <li>
-                        Gender:
-                        <input type="radio" name="gender" value="0" checked id="male">
-                        <label for="male">Male</label>
-                        <label>
-                            <input type="radio" name="gender" value="1"> Female
-                        </label>
-                    </li>
-                    <li>
-                        Hobby:
-                        <input type="checkbox" name="hobby" value="0" checked> Football
-                        <input type="checkbox" name="hobby" value="1"> Basketball
-                    </li>
-                    <li>
-                        File:
-                        <input type="file" name="file" multiple accept=".jpg,.png">
-                    </li>
-                    <li>
-                        Message:
-                        <textarea name="message" placeholder="Please enter the message"></textarea>
-                    </li>
-                </ul>
-                <button disabled>Login</button>
-            </form>
-            <section>Section</section>
-        </main>
-        <footer>This is a footer.</footer>
-
-        <div>This is a division element. It is a block-level element and has no semantic meaning.</div>
-        <span>This is a span element. It is an inline element and has no semantic meaning.</span>
-        <span> This is a span element. It is an inline element and has no semantic meaning.</span>
-    </body>
-
+    <div>This is a division element. It is a block-level element and has no semantic meaning.</div>
+    <span>This is a span element. It is an inline element and has no semantic meaning.</span>
+    <span> This is a span element. It is an inline element and has no semantic meaning.</span>
+  </body>
 </html>
