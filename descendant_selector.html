@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descendant Selector</title>
+    <style>
+      /* descendant selector */
+      /* div a {
+        color: red;
+      } */
+      .footer a {
+        color: red;
+      }
+
+      .nav li a {
+        color: burlywood;
+        font-size: 20px;
+      }
+
+      /* child selector */
+      div > span {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Product Introduction</a></li>
+      <li><a href="#">Coorperation Model</a></li>
+    </ul>
+    <div class="footer">
+      <li><a href="#">Abount us</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Contact</a></li>
+    </div>
+    <div>
+      <span>Child</span>
+      <p><span>Grandchild</span></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sibling Selector</title>
+    <style>
+      /* Adjacent Sibling Selector */
+      h2 + p {
+        color: red;
+      }
+
+      /* General Sibling Selector */
+      h2 ~ p {
+        color: mediumvioletred;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <p>Hi bro!</p>
+      <p>Hi bro!</p>
+      <p>Hi bro!</p>
+      <p>Hi bro!</p>
+      <h2>Head 2</h2>
+      <p>Hi bro!</p>
+      <p>Hi bro!</p>
+      <p>Hi bro!</p>
+      <p>Hi bro!</p>
+    </div>
+  </body>
+</html>
