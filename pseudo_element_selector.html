@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-element selector</title>
+    <style>
+      p::first-line {
+        color: #ff6900;
+      }
+
+      p::first-letter {
+        color: red;
+        font-size: 28px;
+      }
+
+      textarea::placeholder {
+        color: red;
+        font-size: 14px;
+      }
+
+      textarea {
+        color: pink;
+      }
+
+      div::before {
+        /* content required */
+        content: "This is a ";
+        color: red;
+      }
+
+      div::after {
+        /* content required */
+        content: " element";
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      1. Client telemetry user attribution and configurable capture. 2. Client telemetry user attribution and
+      configurable capture. 3. Client telemetry user attribution and configurable capture
+    </p>
+    <textarea placeholder="Enter a letter"></textarea>
+    <div class="box">Text</div>
+  </body>
+</html>
