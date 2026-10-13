@@ -27,11 +27,36 @@
         color: blue;
         text-decoration: none;
       }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        text-align: center;
+        line-height: 100px;
+      }
+
+      .box:hover {
+        background-color: red;
+        color: whitesmoke;
+      }
+
+      .search {
+        width: 100px;
+        height: 20px;
+      }
+
+      .search:focus {
+        width: 200px;
+        background-color: red;
+      }
     </style>
   </head>
   <body>
     <a href="https://www.google.com">Google</a>
     <a href="#">Introduction</a>
     <a href="#">About us</a>
+    <div class="box">Text</div>
+    <input type="text" class="search" />
   </body>
 </html>
