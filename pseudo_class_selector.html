@@ -50,6 +50,34 @@
         width: 200px;
         background-color: red;
       }
+
+      .ul1 li:first-child {
+        color: red;
+      }
+
+      .ul1 li:last-child {
+        color: blue;
+      }
+
+      .ul1 li:nth-child(5) {
+        color: green;
+      }
+
+      /* .ul2 li:nth-child(even) {
+        color: red;
+      } */
+
+      /* .ul2 li:nth-child(3n) {
+        color: red;
+      } */
+
+      /* .ul2 li:nth-child(n + 3) {
+        color: red;
+      } */
+
+      .ul2 li:nth-child(-n + 3) {
+        color: red;
+      }
     </style>
   </head>
   <body>
@@ -58,5 +86,30 @@
     <a href="#">About us</a>
     <div class="box">Text</div>
     <input type="text" class="search" />
+    <ul class="ul1">
+      <li>First li</li>
+      <li>Second li</li>
+      <li>Third li</li>
+      <li>Fourth li</li>
+      <li>Fifth li</li>
+      <li>Sixth li</li>
+      <li>Seventh li</li>
+      <li>Eighth li</li>
+      <li>Ninth li</li>
+      <li>Tenth li</li>
+    </ul>
+
+    <ul class="ul2">
+      <li>First li</li>
+      <li>Second li</li>
+      <li>Third li</li>
+      <li>Fourth li</li>
+      <li>Fifth li</li>
+      <li>Sixth li</li>
+      <li>Seventh li</li>
+      <li>Eighth li</li>
+      <li>Ninth li</li>
+      <li>Tenth li</li>
+    </ul>
   </body>
 </html>
