@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute selector</title>
+    <style>
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      /* a[class] {
+        color: red;
+      } */
+
+      /* a[class="font"] {
+        color: red;
+      } */
+
+      /* a[class^="font"] {
+        color: red;
+      } */
+
+      /* a[class$="14"] {
+        color: red;
+      } */
+
+      a[class*="ont"] {
+        color: red;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        /* Remove border on deselection */
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">Modify font color</a>
+    <br />
+    <a href="#" class="font">Modify font color</a>
+    <br />
+    <a href="#" class="font14">Modify font color</a>
+    <br />
+    <a href="#" class="font16">Modify font color</a>
+    <br />
+    <a href="#" class="red">Modify font color</a>
+    <br />
+
+    <input type="text" />
+    <input type="password" />
+    <input type="checkbox" />
+    <input type="radio" />
+  </body>
+</html>
