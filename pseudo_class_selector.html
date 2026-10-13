@@ -78,6 +78,23 @@
       .ul2 li:nth-child(-n + 3) {
         color: red;
       }
+
+      button {
+        width: 150px;
+        height: 40px;
+        background-color: #ff6900;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+      }
+
+      button:disabled {
+        opacity: 0.4;
+      }
+
+      input:checked + label {
+        color: #ff6900;
+      }
     </style>
   </head>
   <body>
@@ -111,5 +128,10 @@
       <li>Ninth li</li>
       <li>Tenth li</li>
     </ul>
+
+    <button disabled>Register</button>
+    <br />
+    <input type="checkbox" id="agree" />
+    <label for="agree">Agree Privacy</label>
   </body>
 </html>
