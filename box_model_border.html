@@ -33,15 +33,91 @@
 
       .box5 {
         /* border-top: 3px solid #ff8400;
-        border-left: 1px solid #d9e0ee;
-        border-right: 1px solid #d9e0ee;
-        border-bottom: 1px solid #d9e0ee; */
+          border-left: 1px solid #d9e0ee;
+          border-right: 1px solid #d9e0ee;
+          border-bottom: 1px solid #d9e0ee; */
         border: 1px solid #d9e0ee;
         border-top: 3px solid #ff8400;
       }
 
       h2 {
         border-bottom: 3px solid #ff8400;
+      }
+
+      .radius1 {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        /* border-radius: 10px; */
+        /* A border-radius equal to half the box's width creates a circle. */
+        /* border-radius: 50px; */
+        border-radius: 50%;
+      }
+
+      .radius2 {
+        width: 100px;
+        height: 50px;
+        background-color: pink;
+      }
+
+      .radius3 {
+        width: 200px;
+        height: 40px;
+        background-color: skyblue;
+        /* A border-radius equal to half the box's width or height creates a pill box. */
+        border-radius: 20px;
+      }
+
+      .radius4 {
+        width: 40px;
+        height: 200px;
+        background-color: skyblue;
+        border-radius: 20px;
+      }
+
+      .pix {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+
+      .pix ~ div[class*="radius"] {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        margin: 20px;
+      }
+
+      .radius5 {
+        /* 1 value: All four corners have the same radius. */
+        border-radius: 10px;
+      }
+
+      .radius6 {
+        /* 2 values: Diagonally opposite corners share the same radius. */
+        /* Top-left and bottom-right = 10px */
+        /* Top-right and bottom-left = 20px */
+        border-radius: 10px 20px;
+      }
+
+      .radius7 {
+        /* 3 values: Top-right and bottom-left share the same radius. */
+        /* Top-left = 10px */
+        /* Top-right and bottom-left = 20px */
+        /* Bottom right = 30px */
+        border-radius: 10px 20px 30px;
+      }
+
+      .radius8 {
+        /* 4 values: Clockwise from the top-left corner. */
+        border-radius: 10px 20px 30px 40px;
+      }
+
+      .beatiful-pix {
+        width: 200px;
+        height: 200px;
+        border-radius: 50px 0;
+        border: 2px solid skyblue;
       }
     </style>
   </head>
@@ -52,5 +128,15 @@
     <div class="box4">Box</div>
     <div class="box5">Box</div>
     <h2>Head</h2>
+    <div class="radius1"></div>
+    <div class="radius2"></div>
+    <div class="radius3">Pill button</div>
+    <div class="radius4">Pill button</div>
+    <img src="images/golden-mountain.jpg" class="pix" />
+    <div class="radius5">1 value</div>
+    <div class="radius6">2 value</div>
+    <div class="radius7">3 value</div>
+    <div class="radius8">4 value</div>
+    <img src="images/golden-mountain.jpg" class="beatiful-pix" />
   </body>
 </html>
