@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #ccc;
+      }
+
+      .cart {
+        width: 234px;
+        height: 300px;
+        background-color: #fff;
+        margin: 100px auto;
+        text-align: center;
+        transition: all 0.4s;
+      }
+
+      .cart:hover {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      .cart img {
+        width: 160px;
+        height: 160px;
+        margin-top: 20px;
+      }
+
+      .cart .title {
+        font-size: 14px;
+        font-weight: 400;
+        color: #333;
+        margin-top: 10px;
+      }
+
+      .cart .desc {
+        font-size: 12px;
+        color: #b0b0b0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0 10px;
+      }
+
+      .cart .price {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #b0b0b0;
+      }
+
+      .cart .price span {
+        color: #ff6700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cart">
+      <img src="images/wireless-earbuds.png" />
+      <h3 class="title">FuturePods Pro</h3>
+      <p class="desc">Pearl White · Futuristic Design · Wireless Freedom · Lightweight Comfort</p>
+      <p class="price">
+        <span>$659</span>
+        <del>$699</del>
+      </p>
+    </div>
+  </body>
+</html>
