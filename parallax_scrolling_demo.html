@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Scrolling Demo</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      section[class^="section"] {
+        height: 100%;
+        width: 100%;
+      }
+
+      .content {
+        width: 100%;
+        height: 20%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        line-height: 30px;
+        font-size: 18px;
+        padding: 30px;
+      }
+
+      .section1 {
+        background: url(images/parallax-section1.jpg) no-repeat fixed center center/cover;
+      }
+
+      .section2 {
+        background: url(images/parallax-section2.jpg) no-repeat fixed center center/cover;
+      }
+
+      .section3 {
+        background: url(images/parallax-section3.jpg) no-repeat fixed center center/cover;
+      }
+
+      .section4 {
+        background: url(images/parallax-section4.jpg) no-repeat fixed center center/cover;
+      }
+
+      section[class^="section"] h2 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 60px;
+        margin-top: 200px;
+        letter-spacing: 10px;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section1">
+      <div class="content">
+        <p>As the sun slowly sinks below the horizon,</p>
+        <p>
+          the sky transforms into a breathtaking canvas of orange, pink, and gold. Gentle ocean waves reflect the fading
+          sunlight,
+        </p>
+        <p>while a distant lighthouse stands quietly along the coast, creating a peaceful and unforgettable evening.</p>
+      </div>
+      <h2>Sunset</h2>
+    </section>
+
+    <section class="section2">
+      <div class="content">
+        <p>
+          Majestic mountains rise high above the clouds, their snow-covered peaks shining beneath the clear blue sky.
+        </p>
+        <p>
+          Soft layers of mist drift through the valleys, revealing a breathtaking landscape of untouched wilderness.
+        </p>
+        <p>Here, the beauty of nature inspires a sense of freedom, adventure, and endless possibility.</p>
+      </div>
+      <h2>Mountains</h2>
+    </section>
+
+    <section class="section3">
+      <div class="content">
+        <p>
+          Deep within the forest, golden sunlight filters through the towering trees, illuminating the moss-covered
+          rocks and crystal-clear stream.
+        </p>
+        <p>
+          The gentle sound of flowing water fills the peaceful atmosphere, while vibrant green leaves sway in the
+          breeze.
+        </p>
+        <p>Every corner of this woodland reveals the quiet beauty of nature.</p>
+      </div>
+      <h2>Forest</h2>
+    </section>
+
+    <section class="section4">
+      <div class="content">
+        <p>As darkness falls, countless stars begin to sparkle across the vast night sky.</p>
+        <p>The Milky Way stretches above the silent mountains, casting a magical glow over the peaceful lake below.</p>
+        <p>
+          Far from the noise of the world, this breathtaking scene invites us to dream, reflect, and explore the
+          mysteries of the universe.
+        </p>
+      </div>
+      <h2>Night Sky</h2>
+    </section>
+  </body>
+</html>
