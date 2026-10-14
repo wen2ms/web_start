@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box model border</title>
+    <style>
+      div[class*="box"] {
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+      }
+
+      .solid-box {
+        /* border width style color */
+        border: 1px solid red;
+      }
+
+      .dashed-box {
+        border: 1px dashed red;
+      }
+
+      .dotted-box {
+        border: 1px dotted red;
+      }
+
+      .box4 {
+        border-top: 2px dashed red;
+        border-bottom: 2px dotted green;
+        border-left: 2px solid blue;
+        border-right: 2px solid pink;
+      }
+
+      .box5 {
+        /* border-top: 3px solid #ff8400;
+        border-left: 1px solid #d9e0ee;
+        border-right: 1px solid #d9e0ee;
+        border-bottom: 1px solid #d9e0ee; */
+        border: 1px solid #d9e0ee;
+        border-top: 3px solid #ff8400;
+      }
+
+      h2 {
+        border-bottom: 3px solid #ff8400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="solid-box">Solid box</div>
+    <div class="dashed-box">Dashed box</div>
+    <div class="dotted-box">Dotted box</div>
+    <div class="box4">Box</div>
+    <div class="box5">Box</div>
+    <h2>Head</h2>
+  </body>
+</html>
