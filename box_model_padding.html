@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padding</title>
+    <style>
+      .box1 {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        /* 1 value: All four sides have the same padding. */
+        /* padding: 10px; */
+
+        /* 2 values: Opposite sides share the same padding. */
+        /* Top and bottom = 10px */
+        /* Right and left = 20px */
+        /* padding: 10px 20px; */
+
+        /* 3 values: Right and left share the same padding. */
+        /* Top = 10px */
+        /* Right and left = 20px */
+        /* Bottom = 30px */
+        /* padding: 10px 20px 30px; */
+
+        /* 4 values: Clockwise from the top. */
+        /* Top = 10px */
+        /* Right = 20px */
+        /* Bottom = 30px */
+        /* Left = 40px */
+        padding: 10px 20px 30px 40px;
+      }
+
+      .title {
+        width: 240px;
+        height: 35px;
+        border: 1px solid #d9e0ee;
+        border-top: 3px solid #ff8400;
+        line-height: 35px;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">Box</div>
+    <hr />
+    <div class="title">Title</div>
+  </body>
+</html>
