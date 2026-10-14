@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-state=1.0" />
+    <title>Background Gradient</title>
+    <style>
+      .box {
+        width: 300px;
+        height: 100px;
+        /* background-color: pink; */
+        /* background: linear-gradient(to right, pink, red); */
+        /* background: linear-gradient(90deg, pink, red); */
+        /* color stop position */
+        background: linear-gradient(90deg, pink 20%, red 30%);
+      }
+
+      .text {
+        font-size: 30px;
+        font-weight: 700;
+
+        background-image: linear-gradient(97deg, #0096ff, #bb64ff 24%, #f2416b 74%, #eb7500);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      button {
+        background: linear-gradient(to right, #4285f4 0%, #ea4335 33%, #fbbc05 66%, #34a853 100%);
+
+        width: 200px;
+        height: 50px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        padding: 12px 32px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="text">This is gradient text</div>
+    <button>Google</button>
+  </body>
+</html>

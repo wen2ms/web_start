@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadow</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        margin: 100px auto;
+        /* shadow x y blur-radius[not required] spread-radius[not required] color */
+        /* box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5); */
+
+        /* attribute time */
+        transition: all 0.5s;
+      }
+
+      .box:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0 15px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
