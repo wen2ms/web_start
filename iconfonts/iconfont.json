@@ -1,0 +1,93 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5317011",
+      "name": "paw",
+      "font_class": "paw",
+      "unicode": "e725",
+      "unicode_decimal": 59173
+    },
+    {
+      "icon_id": "5317030",
+      "name": "shirt",
+      "font_class": "shirt",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "7008902",
+      "name": "camera",
+      "font_class": "camera",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "7239792",
+      "name": "laptop",
+      "font_class": "laptop",
+      "unicode": "e738",
+      "unicode_decimal": 59192
+    },
+    {
+      "icon_id": "8953122",
+      "name": "puzzle-piece",
+      "font_class": "puzzle-piece",
+      "unicode": "e829",
+      "unicode_decimal": 59433
+    },
+    {
+      "icon_id": "10492184",
+      "name": "SPA",
+      "font_class": "SPA",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "11992471",
+      "name": "couch-solid",
+      "font_class": "couch-solid",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "15188324",
+      "name": "dumbbell",
+      "font_class": "dumbbell",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "16618686",
+      "name": "gift",
+      "font_class": "gift",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "26129479",
+      "name": "utensils",
+      "font_class": "utensils",
+      "unicode": "e802",
+      "unicode_decimal": 59394
+    },
+    {
+      "icon_id": "44062867",
+      "name": "book",
+      "font_class": "book",
+      "unicode": "e993",
+      "unicode_decimal": 59795
+    },
+    {
+      "icon_id": "44063738",
+      "name": "slash",
+      "font_class": "slash",
+      "unicode": "ea61",
+      "unicode_decimal": 60001
+    }
+  ]
+}
