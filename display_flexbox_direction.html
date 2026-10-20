@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox direction</title>
+    <link rel="stylesheet" href="iconfonts/iconfont.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      .box {
+        display: flex;
+        margin: 20px;
+        font-size: 13px;
+      }
+
+      .iconfont {
+        font-size: 30px;
+      }
+
+      .box li {
+        width: 80px;
+        height: 80px;
+        /* border: 2px solid red; */
+      }
+
+      .box li a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* flex can also set the width and height. */
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="box">
+      <li>
+        <a href="#">
+          <i class="iconfont icon-thump_up_v2"></i>
+          <p>Thump up</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="iconfont icon-coin"></i>
+          <p>Coin</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="iconfont icon-collection"></i>
+          <p>Collection</p>
+        </a>
+      </li>
+    </ul>
+  </body>
+</html>

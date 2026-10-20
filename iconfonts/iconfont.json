@@ -27,6 +27,13 @@
       "unicode_decimal": 59111
     },
     {
+      "icon_id": "7008907",
+      "name": "collection",
+      "font_class": "collection",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
       "icon_id": "7239792",
       "name": "laptop",
       "font_class": "laptop",
@@ -62,6 +69,13 @@
       "unicode_decimal": 59105
     },
     {
+      "icon_id": "16550083",
+      "name": "coin",
+      "font_class": "coin",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
       "icon_id": "16618686",
       "name": "gift",
       "font_class": "gift",
@@ -74,6 +88,13 @@
       "font_class": "utensils",
       "unicode": "e802",
       "unicode_decimal": 59394
+    },
+    {
+      "icon_id": "43765677",
+      "name": "thump_up_v2",
+      "font_class": "thump_up_v2",
+      "unicode": "e639",
+      "unicode_decimal": 58937
     },
     {
       "icon_id": "44062867",
