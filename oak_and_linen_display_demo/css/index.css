@@ -1,0 +1,38 @@
+.hero {
+  height: 500px;
+  background-color: #f5f5f5;
+}
+
+.hero__inner {
+  height: 100%;
+  background: url(../images/mobile.svg);
+}
+
+.category-menu {
+  width: 250px;
+  height: 500px;
+  background-color: rgba(40, 49, 39, 0.78);
+}
+
+.category-menu__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 12px 0 20px;
+  color: #fff;
+}
+
+.category-menu__item:hover {
+  background-color: #58745e;
+}
+
+.category-menu__link {
+  color: #fff;
+  font-size: 12px;
+}
+
+.category-menu__link:first-child {
+  font-size: 16px;
+  margin-right: 8px;
+}
