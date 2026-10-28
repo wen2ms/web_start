@@ -170,3 +170,28 @@
 .footer-links__icon {
   color: #58745e;
 }
+
+.footer-community__list {
+  display: flex;
+  text-align: center;
+  gap: 24px;
+}
+
+.footer-community__item {
+  color: #77796e;
+}
+
+.footer-community__caption {
+  margin-top: 10px;
+}
+
+.site-footer__legal {
+  text-align: center;
+  margin-top: 100px;
+  line-height: 30px;
+  color: #77796e;
+}
+
+.site-footer__legal-link {
+  color: #77796e;
+}
