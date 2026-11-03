@@ -195,3 +195,9 @@
 .site-footer__legal-link {
   color: #77796e;
 }
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
