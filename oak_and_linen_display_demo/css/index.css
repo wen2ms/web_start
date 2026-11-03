@@ -64,6 +64,10 @@
   justify-content: space-between;
 }
 
+.featured-section--favorites {
+  margin-bottom: 60px;
+}
+
 .featured-card {
   width: 304px;
   height: 404px;
@@ -97,4 +101,8 @@
 
 .featured-card__currency {
   font-size: 18px;
+}
+
+.featured-card--plain {
+  background-color: #fff;
 }
