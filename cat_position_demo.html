@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat position demo</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      .box {
+        position: relative;
+        width: 1000px;
+        margin: 100px auto;
+        overflow: hidden;
+      }
+
+      .box::before,
+      .box::after {
+        /* Set an element's width and height for absolute positioning . */
+        position: absolute;
+        left: 0;
+        content: "";
+        width: 100%;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+
+      .box::before {
+        content: "Hello kitty";
+        top: -50px;
+        text-align: center;
+        line-height: 120px;
+        color: #000;
+      }
+
+      .box::after {
+        bottom: -50px;
+      }
+
+      .box ul {
+        display: flex;
+        gap: 15px;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+      }
+
+      .box ul::-webkit-scrollbar {
+        display: none;
+      }
+
+      .box ul li {
+        flex: 0 0 200px;
+      }
+
+      .box ul li img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <ul>
+        <li>
+          <a href="#"><img src="images/cat1.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat2.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat3.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat4.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat5.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat6.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat7.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat8.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat9.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat10.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat11.jpg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/cat12.jpg" /></a>
+        </li>
+      </ul>
+    </div>
+
+    <script>
+      const scrollContainer = document.querySelector(".box ul");
+      scrollContainer.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        scrollContainer.scrollLeft += e.deltaY * 1.5;
+      });
+    </script>
+  </body>
+</html>
