@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative position</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .box1 {
+        /* In the normal flow */
+        position: relative;
+        top: 100px;
+        /* bottom: 50px; */
+        left: 100px;
+        height: 200px;
+        width: 200px;
+        background-color: pink;
+      }
+
+      .box2 {
+        height: 200px;
+        width: 200px;
+        background-color: skyblue;
+      }
+
+      .parent {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        margin: 50px;
+        background-color: green;
+      }
+
+      .child1 {
+        /* Out of the normal flow */
+        position: absolute;
+        /* top: 50px;
+        left: 50px; */
+        right: 20px;
+        bottom: 50px;
+        width: 150px;
+        height: 150px;
+        background-color: orange;
+      }
+
+      .child2 {
+        width: 120px;
+        height: 120px;
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="parent">
+      <div class="child1">First child</div>
+      <div class="child2">Second child</div>
+    </div>
+  </body>
+</html>

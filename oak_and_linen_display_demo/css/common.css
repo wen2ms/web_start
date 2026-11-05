@@ -81,6 +81,18 @@
   border-bottom: 2px solid #58745e;
 }
 
+.site-search {
+  position: relative;
+}
+
+.site-search__icon {
+  position: absolute;
+  top: 9px;
+  left: 0px;
+  font-size: 20px;
+  color: #77796e;
+}
+
 .site-search__input {
   width: 200px;
   height: 40px;
@@ -94,9 +106,23 @@
   color: #77796e;
 }
 
+.cart-preview {
+  position: relative;
+}
+
 .cart-preview__icon {
   font-size: 40px;
   margin-right: 15px;
+}
+
+.cart-preview__count {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  padding: 2px 5px;
+  background-color: #e26237;
+  border-radius: 8px;
+  color: #fff;
 }
 
 .site-footer {
